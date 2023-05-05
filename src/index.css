@@ -1,0 +1,14 @@
+.text-red-500 {
+  color: #EF4444;
+}
+ .phone-numbers:not(:nth-of-type(1)):not(:nth-of-type(2)) {
+   display: none;
+ }
+ .my-input::placeholder {
+  color: gray;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
